@@ -1,0 +1,60 @@
+# NodeJS gitignores
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.o
+
+# Build artifacts
+*.obj
+*.pdb
+*.lib
+.deps/
+*.sln
+*.tlog
+*.cmd
+*.map
+build
+node_modules/**/build
+node_modules/**/test
+node_modules/**/example
+node_modules/**/.bin
+node_modules/sqlite3/lib/binding
+node_modules/phantomjs-prebuilt/lib/phantom/bin/*
+node_modules/phantomjs-prebuilt/lib/location.js
+node_modules/**/*.png
+node_modules/**/*.jpg
+node_modules/**/*.ico
+
+npm-debug.log
+
+# Test artifacts
+report.xml/
+coverage/
+
+# IDE files
+.idea/
+.vscode/
+
+# Typescript overrides
+!/node_modules/typescript/bin/
+!/node_modules/typescript/bin/*
+
+# TSLint overrides
+!/node_modules/tslint/lib/test/
+
+#OS generated files
+__MACOSX
+*/.DS_Store
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
